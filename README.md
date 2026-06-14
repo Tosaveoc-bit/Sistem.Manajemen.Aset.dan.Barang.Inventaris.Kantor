@@ -48,8 +48,6 @@ Sistem ini bertujuan untuk:
 
 # 4. Kebutuhan Fungsional Sistem
 
-Minimal 10 kebutuhan fungsional:
-
 | No | Kebutuhan Fungsional                                                   |
 | -- | ---------------------------------------------------------------------- |
 | 1  | Sistem dapat melakukan login pengguna.                                 |
@@ -71,8 +69,6 @@ Minimal 10 kebutuhan fungsional:
 ---
 
 # 5. Kebutuhan Data
-
-Bagian ini sengaja dibuat agar sesuai dengan ERD dan database pada Progres 2 dan Progres 3.
 
 ## Data Pengguna (users)
 
@@ -150,8 +146,6 @@ Bagian ini sengaja dibuat agar sesuai dengan ERD dan database pada Progres 2 dan
 
 ## Data Laporan
 
-Data laporan diperoleh dari gabungan tabel:
-
 * aset
 * kategori
 * lokasi
@@ -174,12 +168,12 @@ Data laporan diperoleh dari gabungan tabel:
 
 Karena anggota kelompok berjumlah 4 orang:
 
-| Anggota   | Tugas                                                              |
-| --------- | ------------------------------------------------------------------ |
-| Anggota 1 | Deskripsi studi kasus, latar belakang, tujuan sistem               |
-| Anggota 2 | Identifikasi aktor, kebutuhan fungsional                           |
-| Anggota 3 | Kebutuhan data dan diagram proses                                  |
-| Anggota 4 | Dokumentasi GitHub, penyusunan laporan, revisi dan integrasi tugas |
+| Anggota           | Nim                |Tugas                                                               |
+| ------------------| -------------------|--------------------------------------------------------------------|
+| Afif Fajriyananto | 2501020141         | Deskripsi studi kasus, latar belakang, tujuan sistem               |
+| Muhammad Rizuar   | 2501020155         | Identifikasi aktor, kebutuhan fungsional                           |
+| Fahkrul Aqasya    | 2501020150         | Kebutuhan data dan diagram proses                                  |
+| Hazza Syahfitra   | 2501020144         | Dokumentasi GitHub, penyusunan laporan, revisi dan integrasi tugas |
 
 ---
 
