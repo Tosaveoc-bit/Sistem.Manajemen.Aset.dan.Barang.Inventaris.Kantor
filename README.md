@@ -1,24 +1,29 @@
-Sistem Manajemen Aset dan Barang Inventaris Kantor
+# PROGRES 1 – ANALISIS KEBUTUHAN SISTEM
 
-PROGRES 1 – ANALISIS KEBUTUHAN SISTEM
+## Sistem Manajemen Aset dan Barang Inventaris Kantor
 
-1. Deskripsi Studi Kasus
+---
+
+# 1. Deskripsi Studi Kasus
 
 Sebuah kantor memiliki berbagai aset dan barang inventaris seperti komputer, laptop, printer, meja, kursi, proyektor, kendaraan operasional, dan perangkat pendukung lainnya. Saat ini pencatatan aset masih dilakukan secara manual menggunakan buku atau spreadsheet sehingga sering terjadi masalah seperti kehilangan data, kesulitan mencari informasi aset, keterlambatan pelaporan, serta kurang akuratnya informasi kondisi dan lokasi aset.
 
 Untuk mengatasi permasalahan tersebut diperlukan sebuah Sistem Manajemen Aset dan Barang Inventaris Kantor yang dapat membantu proses pendataan, pemantauan, peminjaman, pengembalian, perawatan, serta pelaporan aset secara terkomputerisasi.
 
-2. Latar Belakang dan Tujuan Sistem
+---
 
-2.1 Latar Belakang
+# 2. Latar Belakang dan Tujuan Sistem
+
+## 2.1 Latar Belakang
 
 Aset dan inventaris merupakan sumber daya penting yang mendukung operasional kantor. Pengelolaan aset yang kurang baik dapat menyebabkan kerugian, kehilangan barang, serta kesulitan dalam pengambilan keputusan terkait pengadaan maupun perawatan aset.
 
 Penggunaan sistem informasi berbasis database dapat membantu pengelolaan aset secara lebih efektif, efisien, dan terintegrasi sehingga seluruh data aset dapat diakses dengan mudah dan akurat.
 
-2.2 Tujuan Sistem
+## 2.2 Tujuan Sistem
 
 Sistem ini bertujuan untuk:
+
 1. Mengelola data aset dan inventaris secara terpusat.
 2. Mencatat lokasi dan kondisi aset.
 3. Mengelola proses peminjaman dan pengembalian aset.
@@ -28,7 +33,9 @@ Sistem ini bertujuan untuk:
 7. Mengurangi risiko kehilangan data dan aset.
 8. Membantu pengambilan keputusan terkait pengelolaan aset.
 
-3. Identifikasi Aktor
+---
+
+# 3. Identifikasi Aktor
 
 | No | Aktor              | Deskripsi                                                    |
 | -- | ------------------ | ------------------------------------------------------------ |
@@ -37,9 +44,12 @@ Sistem ini bertujuan untuk:
 | 3  | Pegawai            | Melakukan peminjaman dan pengembalian aset                   |
 | 4  | Pimpinan           | Melihat laporan dan data inventaris                          |
 
-4. Kebutuhan Fungsional Sistem
+---
+
+# 4. Kebutuhan Fungsional Sistem
 
 Minimal 10 kebutuhan fungsional:
+
 | No | Kebutuhan Fungsional                                                   |
 | -- | ---------------------------------------------------------------------- |
 | 1  | Sistem dapat melakukan login pengguna.                                 |
@@ -58,8 +68,13 @@ Minimal 10 kebutuhan fungsional:
 | 14 | Sistem dapat menghasilkan laporan inventaris.                          |
 | 15 | Sistem dapat mencetak laporan aset.                                    |
 
-5. Kebutuhan Data
-1.Data Pengguna (users)
+---
+
+# 5. Kebutuhan Data
+
+Bagian ini sengaja dibuat agar sesuai dengan ERD dan database pada Progres 2 dan Progres 3.
+
+## Data Pengguna (users)
 
 | Atribut   |
 | --------- |
@@ -69,7 +84,9 @@ Minimal 10 kebutuhan fungsional:
 | password  |
 | role      |
 
-2.Data Kategori Aset (kategori)
+---
+
+## Data Kategori Aset (kategori)
 
 | Atribut       |
 | ------------- |
@@ -77,7 +94,9 @@ Minimal 10 kebutuhan fungsional:
 | nama_kategori |
 | deskripsi     |
 
-3.Data Lokasi (lokasi)
+---
+
+## Data Lokasi (lokasi)
 
 | Atribut     |
 | ----------- |
@@ -85,7 +104,9 @@ Minimal 10 kebutuhan fungsional:
 | nama_lokasi |
 | keterangan  |
 
-4.Data Aset (aset)
+---
+
+## Data Aset (aset)
 
 | Atribut           |
 | ----------------- |
@@ -99,7 +120,9 @@ Minimal 10 kebutuhan fungsional:
 | kondisi           |
 | status            |
 
-5.Data Peminjaman (peminjaman)
+---
+
+## Data Peminjaman (peminjaman)
 
 | Atribut           |
 | ----------------- |
@@ -110,7 +133,9 @@ Minimal 10 kebutuhan fungsional:
 | tanggal_kembali   |
 | status_peminjaman |
 
-6.Data Perawatan (perawatan)
+---
+
+## Data Perawatan (perawatan)
 
 | Atribut           |
 | ----------------- |
@@ -121,7 +146,11 @@ Minimal 10 kebutuhan fungsional:
 | biaya             |
 | keterangan        |
 
-7.Data Laporan
+---
+
+## Data Laporan
+
+Data laporan diperoleh dari gabungan tabel:
 
 * aset
 * kategori
@@ -129,11 +158,17 @@ Minimal 10 kebutuhan fungsional:
 * peminjaman
 * perawatan
 
-6. Diagram Proses
+---
 
-6.1 Use Case Diagram
+# 6. Diagram Proses
+
+## 6.1 Use Case Diagram
+
+## Use Case Diagram
+
 ![Use Case Diagram](USECASE.jpeg)
 
+---
 
 # 7. Pembagian Tugas Anggota
 
@@ -146,9 +181,9 @@ Karena anggota kelompok berjumlah 4 orang:
 | Anggota 3 | Kebutuhan data dan diagram proses                                  |
 | Anggota 4 | Dokumentasi GitHub, penyusunan laporan, revisi dan integrasi tugas |
 
-8. Link Repository GitHub
+---
 
-Contoh:
+# 8. Link Repository GitHub
 
 ```text
 https://github.com/nama-kelompok/sistem-manajemen-aset-kantor
