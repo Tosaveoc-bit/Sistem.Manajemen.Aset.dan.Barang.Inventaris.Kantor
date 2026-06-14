@@ -186,7 +186,7 @@ Karena anggota kelompok berjumlah 4 orang:
 # 8. Link Repository GitHub
 
 ```text
-https://github.com/nama-kelompok/sistem-manajemen-aset-kantor
+https://github.com/Tosaveoc-bit/Sistem.Manajemen.Aset.dan.Barang.Inventaris.Kantor
 ```
 
 
