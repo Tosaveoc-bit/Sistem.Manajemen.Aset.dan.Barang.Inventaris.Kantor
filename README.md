@@ -131,7 +131,8 @@ Minimal 10 kebutuhan fungsional:
 
 6. Diagram Proses
 
-6.1 Use Case Diagram (Deskripsi)
+6.1 Use Case Diagram
+![Use Case Diagram](USECASE.jpeg)
 
 
 # 7. Pembagian Tugas Anggota
